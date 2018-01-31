@@ -4,7 +4,7 @@ import org.supsys.common.functional.feature.PatternMatch;
 import org.supsys.common.functional.function.FunctionType;
 import org.supsys.common.functional.function.Function2;
 
-public class Tuple<T1, T2> implements TupleType {
+public class Tuple<T1, T2> implements TupleType, TupleTypeHolder<T1, T2> {
     public final T1 _1;
     public final T2 _2;
 

@@ -9,8 +9,8 @@ import static org.supsys.common.functional.langfunction.HaskellFunc.foldl;
 
 public class JSet {
 
-    public static <T> Set<T> set(T... values) {
-        return Stream.of(values).collect(Collectors.toSet());
+    public static <T, S extends Set<T>> S set(T... values) {
+        return (S)Stream.of(values).collect(Collectors.toCollection(FHashSet::new));
     }
 
     /**
