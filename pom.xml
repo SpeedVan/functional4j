@@ -6,7 +6,7 @@
 
     <groupId>org.supsys</groupId>
     <artifactId>funtional4j</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT</version>
 
 
     <properties>
