@@ -2,7 +2,7 @@ package org.supsys.common.functional.function;
 
 /**
  * Created with IntelliJ IDEA.
- * User: shizhiyin@finupgroup.com
+ * User: sunheavenvan@gmail.com
  * Time: 下午7:20
  * Description:
  */
